@@ -1,0 +1,18 @@
+.main {
+  text-align: center;
+}
+.phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+form {
+  max-width: 500px;
+  text-align: left;
+}
+form label {
+  display: block;
+  margin: 5px;
+}
