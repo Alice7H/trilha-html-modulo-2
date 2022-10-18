@@ -28,7 +28,7 @@
           />
         </div>
 
-        <div class="content">
+        <div class="content">  
           <h2>Nossos contatos</h2>
           <address>
             <div class="phone">
@@ -45,20 +45,20 @@
                 </a>
               </p>
             </div>
-            <p>Rua. Pedro de Oliveira Neto, 82 – 3 Andar</p>
+            <p>Rua. Pedro de Oliveira Neto, 82 – 3<sup>o</sup> Andar</p>
             <p>Edifício Kassato Maru, Campolim - Sorocaba- SP</p>
             <p>CEP: 18030-275</p>
           </address>        
-
+  
           <h2>Localização</h2>
           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.4485726314924!2d-47.4646312!3d-23.5163634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58b96e2b86825%3A0xe992f158bed78ac4!2sPsicologia%20Sorocaba!5e0!3m2!1spt-BR!2sbr!4v1665789007748!5m2!1spt-BR!2sbr" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-          <form>
+    
+          <form id="contact-form">
             <fieldset>
               <legend>Formulário de contato</legend>
               <div>
                 <label for="name">Nome:</label>
-                <input type="text" id="name" name="name">
+                <input type="text" id="name" name="name" minlength="3" maxlength="100">
               </div>
               <div>
                 <label for="email">E-mail:</label>
@@ -66,11 +66,11 @@
               </div>
               <div>
                 <label for="subject">Assunto:</label>
-                <input type="text" id="subject" name="subject">
+                <input type="text" id="subject" name="subject" maxlength="50">
               </div>
               <div>
                 <label for="message">Mensagem:</label>
-                <textarea id="message" name="message" cols="30" rows="10"></textarea>
+                <textarea id="message" name="message" cols="30" rows="10" maxlength="200"></textarea>
               </div>
               <div>
                 <button type="reset">Limpar</button>
